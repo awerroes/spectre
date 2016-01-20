@@ -1,0 +1,36 @@
+chl_a vs feo
+
+Choose file to comparision: 
+Sum of square of difference:  6.22759468094
+Sum of square of difference divided by points number:  0.0353840606872
+Points_number:  176
+Maximum of aborbance in first file:  1.18224
+Maximum of aborbance in second file:  1.23446
+
+chl_a vs chl_b
+
+Choose file to comparision: 
+Sum of square of difference:  14.3904050732
+Sum of square of difference divided by points number:  0.0817636651887
+Points_number:  176
+Maximum of aborbance in first file:  1.18224
+Maximum of aborbance in second file:  0.582696
+
+chl_b vs feo
+
+Choose file to comparision: 
+Sum of square of difference:  18.517733932
+Sum of square of difference divided by points number:  0.105214397341
+Points_number:  176
+Maximum of aborbance in first file:  0.582696
+Maximum of aborbance in second file:  1.23446
+
+
+chl_a vs luteina
+
+Choose file to comparision: 
+Sum of square of difference:  20.9732162127
+Sum of square of difference divided by points number:  0.119166001209
+Points_number:  176
+Maximum of aborbance in first file:  1.18224
+Maximum of aborbance in second file:  0.328719
