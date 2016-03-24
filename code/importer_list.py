@@ -1,3 +1,4 @@
+import pylab
 def file_import(fname):
 
     fh = open(fname)
@@ -24,10 +25,10 @@ def file_import(fname):
 
 
 print('Choose file to comparision: ')
-fname = '/media/bartosz/7D48-8DE4/Kasia/chl_b.txt'
+fname = '/home/bartosz/project/spectre/data/chl_b.txt'
 #fname = raw_input('Enter file name: ')
 a = file_import(fname)
-fname_2 = '/media/bartosz/7D48-8DE4/Kasia/feo.txt'
+fname_2 = '/home/bartosz/project/spectre/data/feo.txt'
 #fname_2 = raw_input('Enter file name: ')
 b = file_import(fname_2)
 
@@ -46,3 +47,15 @@ print 'Sum of square of difference divided by points number: ', abs_diff/len(a)
 print 'Points_number: ', len(a)
 print 'Maximum of aborbance in first file: ', max(a)
 print 'Maximum of aborbance in second file: ', max(b)
+
+# plot creation
+# add wavelength as X axis!!!
+pylab.figure(1)
+pylab.title('First spectrum')
+pylab.plot(a)
+pylab.show()
+
+pylab.figure(2)
+pylab.title('Second spectrum')
+pylab.plot(b)
+pylab.show()
